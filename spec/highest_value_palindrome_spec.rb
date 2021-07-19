@@ -1,7 +1,7 @@
 require 'highest_value_palindrome'
 
 RSpec.describe "highest_value_palindrome" do
-  it 'outputs 3993 given 39431 and 1' do
+  it 'outputs 3993 given 3943 and 1' do
     expect(highest_value_palindrome("3993", 1)).to eq("3993")
   end
 
@@ -9,7 +9,7 @@ RSpec.describe "highest_value_palindrome" do
     expect(highest_value_palindrome("092282", 3)).to eq("992299")
   end
 
-  it 'outputs -1 given 0011 and 1' do
+  it 'outputs nil given 0011 and 1' do
     expect(highest_value_palindrome("0011", 1)).to eq(nil)
   end
 
