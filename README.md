@@ -1,6 +1,6 @@
 ## Highest Value Palindrome
 
-Welcome to the ruby challenge. Fork the repository and submit your solution as a pull request.
+Welcome to the Ruby challenge. Fork the repository and submit your solution as a pull request.
 
 ### Task
 You are to develop the function `highest_value_palindrome` located at `lib/highest_value_palindrome.rb` so that when given an input string and a maximum number of changes it returns the highest value palindrome. A palindrome is a string which reads the same from both sides. The highest value describes the value the palindrome would represent if it was converted to an integer.
