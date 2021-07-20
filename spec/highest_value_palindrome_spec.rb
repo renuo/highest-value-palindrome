@@ -52,4 +52,16 @@ RSpec.describe "highest_value_palindrome" do
   it "outputs 929394959493929 given 128392759430124 and 8" do
     expect(highest_value_palindrome("128392759430124", 8)).to eq("929394959493929")
   end
+
+  it "outputs 898 given 818 and 1" do
+    expect(highest_value_palindrome("818", 1)).to eq("898")
+  end
+
+  it "outputs 9999 given 1111 and 100" do
+    expect(highest_value_palindrome("1111", 100)).to eq("9999")
+  end
+
+  it "outputs 1221 given 1221 and 0" do
+    expect(highest_value_palindrome("1221", 0)).to eq("1221")
+  end
 end
