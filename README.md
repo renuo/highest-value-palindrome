@@ -3,7 +3,7 @@
 Welcome to the Ruby challenge. Fork the repository and submit your solution as a pull request.
 
 ### Task
-You are to develop the function `highest_value_palindrome` located at `lib/highest_value_palindrome.rb` so that when given an input string and a maximum number of changes it returns the highest value palindrome. A palindrome is a string which reads the same from both sides. The highest value describes the value the palindrome would represent if it was converted to an integer.
+You are to develop the function `highest_value_palindrome` located at `lib/highest_value_palindrome.rb` so that when given an input string and a maximum number of changes it returns the highest value palindrome. A palindrome is a string which reads the same from both sides. The highest value describes the value the palindrome would represent if it was converted to an integer. Changing the value of a single digit in the number is considered a `change`. I.e. turning `1234` into `1256` "used" two changes.
 
 ### Function description
 The function has two input parameters: `input_string` and `number_of_changes`. The first is a string made up of numbers from `0` to `9`. The second one describes the maximum number of changes required to turn said string into the highest value palindrome possible. If no polindrome is possible the ouput of the function should be `nil`. Leading `0`'s count as normal numbers and the length of the ouput string must match the length of the input string.
