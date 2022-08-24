@@ -1,4 +1,4 @@
-require "highest_value_palindrome"
+require 'highest_value_palindrome.rb'
 
 RSpec.describe "highest_value_palindrome" do
   it "outputs 3993 given 3943 and 1" do
